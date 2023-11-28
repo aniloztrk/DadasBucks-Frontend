@@ -1,0 +1,17 @@
+<div class="products-main">
+    <div class="products-container">
+        <div class="products-title">
+            <a routerLink="/categories" class="pi pi-caret-left category-text-icon"></a>
+            <span class="category-text">{{ category.name }}</span>    
+        </div>
+        <div class="custom-line-header"></div>
+        @for (drink of drinks; track $index) {
+            <div class="product">
+                <span class="product-title">{{ drink.name }}</span>
+                <span class="product-price">{{ drink.priceText }}</span>
+                <div class="custom-line"></div>
+            </div>
+        }
+        <div class="custom-line-footer"></div>
+    </div>
+ </div>

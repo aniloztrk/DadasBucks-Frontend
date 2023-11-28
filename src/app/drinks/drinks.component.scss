@@ -1,0 +1,103 @@
+.category-text {
+    color: rgb(105, 64, 14);
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.category-text-icon {
+    color: black;
+    font-size: 30px; 
+    font-weight: bolder;
+    text-decoration: none; 
+    margin-top: 7px;
+
+    &:active, 
+    &:hover {
+        color: rgb(113, 113, 113);
+    }
+}
+
+.products-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.products-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-right: 20px;
+}
+
+.products-main {
+    display: flex;
+    justify-content: center;
+}
+
+.producst-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.product-title {
+    color: rgb(59, 59, 59);
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 30px;
+}
+
+.product-title-under {
+    color: black;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.product-price {
+    color: #8f8f8f;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 17px;
+}
+
+.product-content {
+    color: rgb(61, 61, 61);
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 15px;
+    word-wrap: break-word;
+    width: 250px;
+}
+
+.custom-line-header {
+    padding: 1px;
+    width: 100vw;
+    background-color: #b68b56;
+    box-shadow: 1px 1px 5px #b68b56;
+}
+
+.custom-line-footer {
+    padding: 1px;
+    width: 100vw;
+    background-color: #b68b56;
+    box-shadow: 1px 1px 5px #b68b56;
+    margin-top: 15px;
+}
+
+.custom-line {
+    padding: 1px;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    box-shadow: 1px 1px 1px rgb(38, 38, 38);
+}

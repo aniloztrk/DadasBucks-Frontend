@@ -1,0 +1,47 @@
+.category-text {
+    color: rgb(46, 46, 46);
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 40px;
+    user-select: none;
+    text-shadow: 0.5px 0.5px 0.5px #9f9e9c;
+
+    &:active, 
+    &:hover {
+        color: rgb(113, 113, 113);
+    }
+}
+
+.category-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.category-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.category-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.category-text-icon {
+    font-size: 30px; 
+    font-weight: bolder; 
+    margin-top: 7px;
+}
+
+.custom-line {
+    padding: 1px;
+    width: 100vw;
+    background-color: #b68b56;
+    box-shadow: 1px 1px 5px #b68b56;
+}

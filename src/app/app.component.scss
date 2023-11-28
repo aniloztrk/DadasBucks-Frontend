@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b68b56;
+    box-shadow: 1px 2px 5px #9f9e9c;
+    color: white;
+    padding: 10px;
+    gap: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.content {
+    margin-top: 90px;
+    z-index: 0;
+}
+
+.title {
+    font-family: 'Vina Sans', sans-serif;
+    font-size: xx-large;
+    font-size: 45px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 8px;
+    user-select: none;
+
+    &:active,
+    &:hover {
+        color: rgb(219, 219, 219);
+    }
+}
+
+.icon-link {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+
+    &:active,
+    &:hover {
+    color: rgb(219, 219, 219);
+  }
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

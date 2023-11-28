@@ -1,0 +1,10 @@
+<div class="category-main">
+    <div class="category-container">
+        @for (category of categories; track $index) {
+            <div class="category-text-container">
+                <a (click)="onCategoryButtonClicked(category)" class="category-text">{{ category.name }}</a>
+                <div class="custom-line"></div>
+            </div> 
+        }
+    </div>
+</div>
